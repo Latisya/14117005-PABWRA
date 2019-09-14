@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Membuat Background dan Kotak Transparan dengan tulisan CSS</title>
+        <style type="text/css">
+            body {
+                background: url(gambar/gambar1.jpg);
+                height: 100% ;
+                position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+            }
+
+            .transbox {
+                background: black;
+                width: 700px;
+                height: 120px;
+                margin: 20px;
+                opacity: 0.5;
+                filter: alpha(opacity=50);
+                position: absolute;
+                top : 320px;
+            }
+
+            h1 {
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: lighter;
+                color: white;
+                margin-left: 5%;
+            }
+
+            h3 {
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: lighter;
+                color: white;
+                margin-left: 5%; 
+            }
+        </style>
+    </head>
+    <body>
+        <div class="transbox">
+            <h1>Be Your Self</h1>
+            <h3>Jadilah Dirimu Sendiri</h3>
+        </div>
+    </body>
+</html>
