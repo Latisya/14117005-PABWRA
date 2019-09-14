@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Registrasi</title>
+        <h1>Form Registrasi</h1>
+
+        <form action="response2.jsp" method="POST">
+        <p>
+            Name : <input type="text" name="name">
+        </p>
+        <p>
+            Gender : <input type="radio" name="gender" value="man"/>Man <input type="radio"name="gender" value="woman"/>Woman
+        </p>
+        <p>
+            Address : <input type="text" name="address">
+        </p>
+        <p>
+            Country : <select name="country">
+                <option value="indonesia">Indonesia</option>
+                <option value="korea">Korea</option>
+                <option value="malaysia">Malaysia</option>
+                <option value="jerman">Jerman</option>
+                <option value="amerika">Amerika</option>
+            </select>
+        </p>
+        <p>
+            Email : <input type="text" name="email">
+        </p>
+        <p>
+            Photo : <input type="file" name="photo" value="">
+        </p>
+        <p>
+            Comment : <textarea name="comment" cols="45" rows="3" align="center"></textarea>
+            <input type="submit" name="submit" value="submit">
+        </p>
+        </form>
+    </head>
+</html>
