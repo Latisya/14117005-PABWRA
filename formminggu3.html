@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Registrasi</title>
+        <h1>Form Registrasi</h1>
+        <style type="text/css">
+            body {
+                background-color: #26C4C2;
+                height:100% ;
+                position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+                text-align: justify;
+                margin-top: 100px;
+                margin-left: 100px;
+            }
+        </style>
+
+        <form action="response2.jsp" method="POST">
+            <p>
+                Name    : <input type="text" name="name">
+            </p>
+            <p>
+                Gender  : <input type="radio" name="gender" value="man"/>Man <input type="radio"name="gender" value="woman"/>Woman
+            </p>
+            <p>
+                Address : <input type="text" name="address">
+            </p>
+            <p>
+                Country : <select name="country">
+                    <option value="indonesia">Indonesia</option>
+                    <option value="jerman">Jerman</option>
+                    <option value="turki">Turki</option>
+                    <option value="malaysia">Malaysia</option>
+                </select>
+            </p>
+            <p>
+                Email   : <input type="text" name="email">
+            </p>
+             <p>
+                Photo : <input type="file" name="photo" value="">
+            </p>
+            <p>
+                Comment : <textarea name="comment" cols="45" rows="3" align="center"></textarea>
+                <input type="submit" name="submit" value="submit">
+            </p>
+        </form>
+    </head>
+</html>
