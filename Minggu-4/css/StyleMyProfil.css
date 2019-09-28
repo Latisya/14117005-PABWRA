@@ -1,0 +1,103 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+.head {
+    background-color:rgba(18, 182, 160, 0.945) ;
+    background-color: ;
+    color: whitesmoke;
+}
+
+.bg-1 {
+    background-color:rgb(20, 204, 180) ;
+    /* Green */
+    color: #555555;
+}
+
+.bg-2 {
+    background-color:rgb(20, 204, 180);
+    /* Dark Blue */
+    color: #555555;
+}
+
+.bg-3 {
+    background-color:rgb(152, 240, 228) ;
+    /* White */
+    color: #555555;
+}
+
+.foot {
+	font-family: Arial, Helvetica, sans-serif;
+	color: whitesmoke;
+    width: 100%;
+    background:rgb(2, 175, 167);
+    padding: 15px 0;
+	border-top: 5px solid rgb(6, 202, 186);
+}
+
+.judul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    letter-spacing: -1px;
+}
+
+h1{
+    font-family: fantasy;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+h2{
+    font-family: fantasy;
+    font-size: 50px;
+}
+
+h3{
+    font-family: fantasy;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+h4 {
+    font-family: fantasy;
+}
+
+p {
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+.padd{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.margin {
+    margin-bottom: 45px;
+}
+
+.tengah{
+    margin: 0px auto;
+}
+
+.container-fluid {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    letter-spacing: 3px;
+    border-bottom: 4px solid rgb(6, 202, 186); 
+}
+
+.navbar-nav li a:hover {
+    color:black !important;
+}
