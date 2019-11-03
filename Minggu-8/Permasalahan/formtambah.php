@@ -1,14 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatibel" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tambah Data</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-    <div class="body_1" style="background:white; height:550px; margin: 0 0 20px">
     &nbsp<h3 align="center">TAMBAH DATA MAHASISWA</h3><br>
     <form class="form-horizontal" action="insert.php" method="post" encytpe="multipart/form-data">
         <div class="form-group">
@@ -54,7 +49,5 @@
         </div>
     </form>
     </div>
-    <script src="js/jquery.min.js"></script>  
-    <script src="js/bootstrap.min.js"></script> 
 </body>
 </html>

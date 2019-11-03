@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
 	<title>Ubah Data</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
 	<?php
@@ -15,8 +12,7 @@
 	$data = mysqli_fetch_array($query);
 	?>
 
-	<div class="body_1" style="background:white; height:550px; margin: 0 0 20px">
-    &nbsp<u><h2 align="center">UBAH DATA</h2></u><br>
+    &nbsp<h2 align="center">UBAH DATA</h2><br>
 		<form class="form-horizontal" action="update.php?nim=<?echo $nim;?>" method="POST" enctype="multipart/form-data">
 			<input type="hidden" name="nim" value="<?php echo $data["nim"];?>">
 			<div class="form-group">
@@ -56,8 +52,5 @@
 		</div>
 		</form>
 	</div>
-
-    <script src="js/jquery.min.js"></script>  
-    <script src="js/bootstrap.min.js"></script> 
 </body>
 </html>

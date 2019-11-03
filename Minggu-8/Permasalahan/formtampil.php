@@ -1,27 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
 	<title>Tampil Data</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-    <style>
-        th,td {
-            text-align : center;
-        }
-		a {
-			padding-right : 5px;
-			padding-left : 5px;
-		}
-        a:hover {
-			display:inline-block;
-			text-decoration:none;
-			background: palevioletred;
-    		color: #fff;
-        }
-    </style>
 </head>
-<body class="body_1" style="background:white; height:550px; margin: 0 0 20px">
 &nbsp<h3 align="center">DATA MAHASISWA</h3><br>
 <div class="row">
     <div class="col-sm-4">
@@ -74,7 +55,5 @@
 			?>
 		</tbody>
 	</table>
-<script src="js/jquery.min.js"></script>  
-<script src="js/bootstrap.min.js"></script> 
 </body>
 </html>
